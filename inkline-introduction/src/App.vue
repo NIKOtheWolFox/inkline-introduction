@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue"
 
 const inputValue = ref("")
 </script>
@@ -8,9 +8,7 @@ const inputValue = ref("")
   <i-layout>
     <i-layout-header>
       <i-navbar>
-        <i-navbar-brand>
-          Inkline Introduction
-        </i-navbar-brand>
+        <i-navbar-brand>Inkline Introduction</i-navbar-brand>
       </i-navbar>
     </i-layout-header>
     <i-layout vertical class="_padding-top:1/2">
@@ -53,9 +51,7 @@ const inputValue = ref("")
           <i-row>
             <i-column>
               <h2>Text</h2>
-              <p class="_text-align:left">
-                This is a left aligned text.
-              </p>
+              <p class="_text-align:left">This is a left aligned text.</p>
               <p class="_text-align:center">This is a center aligned text.</p>
               <p class="_text-align:right">This is a right aligned text.</p>
             </i-column>
