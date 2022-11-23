@@ -9,7 +9,7 @@ import "./main.scss"
 const app = createApp(App)
 
 app.use(Inkline, {
-    components
+  components,
 })
 
 app.mount("#app")
